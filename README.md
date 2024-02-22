@@ -4,10 +4,11 @@ Esta aplicación web utiliza el Patrón Módulo mediante una Expresión de Funci
 
 ## Características
 
-- Embeber videos de YouTube automáticamente en la página web.
-- Formulario de entrada para URL de video, categoría y tiempo de inicio.
-- Soporte para categorías predefinidas como Música, Película y Serie.
-- Control deslizante para seleccionar el tiempo de inicio del video.
+- Embebido Automático de Videos: Permite a los usuarios incrustar videos de YouTube de forma dinámica en la página web.
+- Formulario Dinámico: Incluye un formulario para la entrada de la URL del video, selección de categoría y definición del tiempo de inicio.
+- Patrón Módulo: Utiliza IIFE para crear un ámbito privado y exponer métodos públicos, protegiendo las propiedades de las instancias de clase.
+- Polimorfismo: Implementa una clase base `Multimedia` y una clase derivada `Reproductor`, demostrando la capacidad de las instancias de clase para procesar datos de video de manera diferente según su categoría.
+
 
 ## Cómo Empezar
 
